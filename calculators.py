@@ -7,3 +7,5 @@ print("Hello Oliver!" * 3)
 # print("Hello Oliver!" + 3)
 
 print(len("Hello Oliver!"))
+
+print(abs(-17))
