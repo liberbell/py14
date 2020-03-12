@@ -9,4 +9,4 @@ print("Hello Oliver!" * 3)
 print(len("Hello Oliver!"))
 
 print(abs(-17))
-print(abs(4.5 - 2 (4 + 7)))
+print(abs(4.5 - 2 * (4 + 7)))
