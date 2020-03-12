@@ -5,3 +5,5 @@ print(40.5 - 2 * (4 / 7) / 4)
 print("Hello Oliver!" * 3)
 
 print("Hello Oliver!" + 3)
+
+len("Hello Oliver!")
