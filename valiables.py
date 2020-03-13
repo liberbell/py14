@@ -15,3 +15,8 @@ num_of_month = 6
 
 total_fee = course_fee * num_of_month
 print("Total fee is: ", total_fee)
+
+num_1 = 2
+num_2 = 2
+
+print(num_1 + num_2)
