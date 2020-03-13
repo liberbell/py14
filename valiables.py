@@ -8,4 +8,7 @@ total_exp = house_rent + food_exp
 print(total_exp)
 
 savings = salary - total_exp
-print(savings)
+print("My saving is", savings)
+
+course_fee = 299
+num_of_month = 6
