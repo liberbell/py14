@@ -12,3 +12,6 @@ print("My saving is", savings)
 
 course_fee = 299
 num_of_month = 6
+
+total_fee = course_fee * num_of_month
+print("Total fee is: ", total_fee)
