@@ -6,3 +6,6 @@ food_exp = 5000
 
 total_exp = house_rent + food_exp
 print(total_exp)
+
+savings = salary - total_exp
+print(savings)
