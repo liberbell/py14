@@ -20,3 +20,4 @@ num_1 = 2
 num_2 = 2
 
 print(num_1 + num_2)
+print("day" + "light")
