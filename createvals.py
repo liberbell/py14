@@ -13,3 +13,7 @@ a, b, c = 5, 3.2, "Hello"
 print(a)
 print(b)
 print(c)
+
+color_a = "Red"
+color_b = "Blue"
+print(color_a, color_b)
