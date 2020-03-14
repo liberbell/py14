@@ -16,3 +16,5 @@ y = "awesome"
 
 z = x + y
 print(z)
+a = z * 4
+print(a)
