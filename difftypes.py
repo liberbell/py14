@@ -10,3 +10,9 @@ print("Not y is: ", not y)
 
 x = "awesome"
 print("Python is " + x)
+
+x = "Python is "
+y = "awesome"
+
+z = x + y
+print(z)
