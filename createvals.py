@@ -5,3 +5,6 @@ print(z)
 
 b = x + y
 print(b)
+
+x = y == z
+print(x)
