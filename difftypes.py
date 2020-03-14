@@ -20,3 +20,4 @@ a = z * 4
 print(a)
 print(len(x))
 print(len(z))
+print(len(a))
