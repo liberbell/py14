@@ -31,3 +31,6 @@ print(n3)
 
 n3 /= 50
 print(n3)
+
+concat_string = s1 + s2
+print(concat_string)
