@@ -7,3 +7,4 @@ s2 = 'World'
 
 total_n = n1 + n2 + n3
 print(total_n)
+print(n1 + 1)
