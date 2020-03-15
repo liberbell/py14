@@ -34,3 +34,6 @@ print(n3)
 
 concat_string = s1 + s2
 print(concat_string)
+
+s1 = s1 + "Yoohoo"
+print(s1)
