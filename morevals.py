@@ -49,3 +49,6 @@ print(s1)
 
 some_n = n3
 print(some_n)
+
+n3 *= 1000
+print(n3)
