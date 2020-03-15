@@ -15,3 +15,6 @@ print(n2)
 
 n3 = n3 - 50
 print(n3)
+
+n3 = n3 * 50
+print(n3)
