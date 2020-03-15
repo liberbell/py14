@@ -37,3 +37,6 @@ print(concat_string)
 
 s1 = s1 + "Yoohoo"
 print(s1)
+
+s2 = s2 + "Yippee"
+print(s2)
