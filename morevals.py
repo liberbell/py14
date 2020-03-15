@@ -43,3 +43,6 @@ print(s2)
 
 new_s1 = s1
 print(new_s1)
+
+s1 = "Some other values"
+print(s1)
