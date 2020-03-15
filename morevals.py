@@ -46,3 +46,6 @@ print(new_s1)
 
 s1 = "Some other values"
 print(s1)
+
+some_n = n3
+print(some_n)
