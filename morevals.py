@@ -18,9 +18,13 @@ print(n3)
 
 n3 = n3 * 50
 print(n3)
+n3 = n3 / 50
 
 n1 += n1 + 1
 print(n1)
 
 n2 += 10
 print(n2)
+
+n3 *= 50
+print(n3)
