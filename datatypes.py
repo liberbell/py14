@@ -20,3 +20,5 @@ print(type(boolian_value))
 
 str_value = "Command"
 print(type(str_value))
+
+print(0b111)
