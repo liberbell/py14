@@ -12,3 +12,5 @@ print("Data type of ", y, " is", type(y))
 
 z = 5j
 print("Data type of ", z, " is", type(z))
+
+print(5j * 5j)
