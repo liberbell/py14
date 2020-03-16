@@ -17,3 +17,6 @@ print(5j * 5j)
 
 boolian_value = True
 print(type(boolian_value))
+
+str_value = "Command"
+print(type(str_value))
