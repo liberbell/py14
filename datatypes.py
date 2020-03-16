@@ -22,3 +22,4 @@ str_value = "Command"
 print(type(str_value))
 
 print(0b111)
+print(type(0b111))
