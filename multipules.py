@@ -13,3 +13,5 @@ print(quetion)
 
 print('I`m learning Python.')
 print('Jhon said "Hello there!"')
+
+print("Hello Jhon! \nHow are you?")
