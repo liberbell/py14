@@ -12,3 +12,4 @@ print(quetion)
 # print("You had " + answer + " That sound delicious!")
 
 print('I`m learning Python.')
+print('Jhon said "Hello there!"')
