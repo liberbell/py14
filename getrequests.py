@@ -14,3 +14,5 @@ pprint(r_get.headers)
 
 data = json.loads(r_get.text)
 pprint(data)
+
+print(r_get.is_redirect)
