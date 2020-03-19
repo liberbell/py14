@@ -13,7 +13,7 @@ print(resp_obj.status_code)
 
 search_term = input("Enter the term you need to search: ")
 
-URL = "https://www.youtute.com/search"
+URL = "https://www.youtube.com/search"
 PARAMS = {'q': search_term}
 
 r_get = requests.get(url = URL, params=PARAMS)
