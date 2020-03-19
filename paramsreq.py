@@ -8,3 +8,5 @@ resp_obj = requests.get(url)
 
 print(resp_obj.url)
 print(resp_obj.status_code)
+
+print(webbrowser.open(resp_obj.url))
