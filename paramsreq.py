@@ -18,3 +18,4 @@ PARAMS = {'q': search_term}
 
 r_get = requests.get(url = URL, params=PARAMS)
 print(r_get.status_code)
+print(r_get.url)
