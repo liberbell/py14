@@ -13,4 +13,5 @@ print(webbrowser.open(resp_obj.url))
 
 search_term = input("Enter the term you need to search: ")
 
-url = "https://www.youtute.com/search"
+URL = "https://www.youtute.com/search"
+PARAMS = {'q': search_term}
