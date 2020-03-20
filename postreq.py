@@ -18,3 +18,5 @@ values = {"upload_files": "test.txt", "OUT" : "csv" }
 print(files)
 
 r_post = requests.post(url, files=files, data=values)
+print(r_post.url)
+pprint(r_post.text)
