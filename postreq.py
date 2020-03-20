@@ -16,3 +16,5 @@ url = "https://httpbin.org/post"
 files = {'files': open("test.txt", "rb")}
 values = {"upload_files": "test.txt", "OUT" : "csv" }
 print(files)
+
+r_post = requests.post(url, files=files, data=values)
