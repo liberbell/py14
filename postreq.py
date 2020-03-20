@@ -13,3 +13,5 @@ pprint(r_post.text)
 #         f.write(chunk)
 
 url = "https://httpbin.org/post"
+files = {'files': open("test.txt", "rb")}
+values = {"upload_files": "test.txt", "OUT" : "csv" }
