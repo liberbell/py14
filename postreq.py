@@ -8,6 +8,8 @@ print(type(r_post))
 pprint(r_post.text)
 # print(webbrowser.open(r_post.url))
 
-with open('george.html', 'wb') as f:
-    for chunk in r_post.iter_content(chunk_size=10000):
-        f.write(chunk)
+# with open('george.html', 'wb') as f:
+#     for chunk in r_post.iter_content(chunk_size=10000):
+#         f.write(chunk)
+
+url = "https://httpbin.org/post"
