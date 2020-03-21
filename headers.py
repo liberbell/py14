@@ -3,4 +3,5 @@ from pprint import pprint
 import json
 
 url = "htt@s://example.com"
-r_head = requests.head(url)
+r_head = requests.head("https://example.com4
+")
