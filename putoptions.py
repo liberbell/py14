@@ -8,4 +8,4 @@ print(r_put.status_code)
 
 r_options = requests.options("https://httpbin.org/get")
 print(r_options.status_code)
-print(r_options.text)
+print(type(r_options))
