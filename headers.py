@@ -10,3 +10,4 @@ print(r_head.text)
 print(r_head.content)
 
 pprint(r_head.headers)
+pprint(r_head.headers["Content-Length"])
