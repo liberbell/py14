@@ -10,3 +10,6 @@ r_options = requests.options("https://httpbin.org/get")
 print(r_options.status_code)
 print(type(r_options))
 pprint(r_options.headers)
+
+r_delete = requests.delete("https://httpbin.org/delete")
+print(r_delete.status_code)
