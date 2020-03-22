@@ -13,3 +13,4 @@ pprint(r_options.headers)
 
 r_delete = requests.delete("https://httpbin.org/delete")
 print(r_delete.status_code)
+print(r_delete.text)
