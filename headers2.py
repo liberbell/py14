@@ -15,3 +15,5 @@ print(resp_obj.headers)
 print(resp_obj.request.headers)
 
 r = requests.get("https://httpbin.org/user-agent", headers = {'User-Agent': 'Internet Explorer/2.0'})
+data = r.json()
+print(data)
