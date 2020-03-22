@@ -7,3 +7,6 @@ resp = requests.get(url, headers=headers)
 print(resp.status_code)
 print(resp.headers)
 print(resp.headers['content-type'])
+
+resp_obj = requests.get("https://en.wikipedia.org/wiki/Monty_Python")
+print(resp_obj.headers)
