@@ -11,6 +11,7 @@ print(resp_obj.encoding)
 resp_obj = requests.get("https://github.com/timeline.json")
 print(resp_obj.status_code)
 print(resp_obj.encoding)
-# pprint(resp_obj.text)
+pprint(resp_obj.text)
 resp_obj.encoding = "ISO 8859-1"
 print(resp_obj.encoding)
+pprint(resp_obj.text)
