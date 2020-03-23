@@ -18,5 +18,5 @@ resp_obj.encoding = "ISO 8859-1"
 print(resp_obj.encoding)
 pprint(resp_obj.text)
 
-resp = requests.get("https://upload.wikipedia.org/wikipedia/commons/thumb/4/4c/Moon_and_Aurora.jpg/320px-Moon_and_Aurora.jpg")
+resp = requests.get("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Moon_and_Aurora.jpg/320px-Moon_and_Aurora.jpg")
 print(resp.status_code)
