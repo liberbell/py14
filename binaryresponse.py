@@ -23,3 +23,4 @@ print(resp.status_code)
 print(type(resp.content))
 
 image = Image.open(BytesIO(resp.content))
+print(type(image))
