@@ -1,5 +1,7 @@
 import requests
 from pprint import pprint
+from PIL import image
+from io import BytesIO
 
 resp_obj = requests.get("https://httpbin.org/")
 print(resp_obj.status_code)
