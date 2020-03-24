@@ -3,3 +3,7 @@ from pprint import pprint
 
 ok_resp = requests.get("https://example.com")
 print(ok_resp.status_code)
+print(ok_resp.ok)
+
+bad_resp = requests.get("https://www.yahoo.com/alf2adfd5")
+print(bad_resp.status_code)
