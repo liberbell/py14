@@ -14,3 +14,6 @@ print(resp.headers['content-type'])
 resp_obj = requests.get("https://maps.googleapis.com/maps/api/geocode/json")
 print(resp_obj.status_code)
 pprint(resp_obj.json())
+
+resp_obj = requests.get("https://swapi.co/api/vehicles/4", stream=True)
+print(resp_obj.status_code)
