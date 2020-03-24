@@ -20,6 +20,6 @@ print(resp_obj.status_code)
 # print(resp_obj.raw.read(10))
 
 with requests.get("https://swapi.co/api/vehicles/4", stream=True) as response:
-    with open("raw_file.txt", "rb") as b:
+    with open("raw_file.txt", "wb") as b:
         for chunk in response.iter_content(1000):
             b.write(chunk)
