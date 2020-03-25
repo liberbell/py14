@@ -16,3 +16,5 @@ response = requests.get("https://gmail.com")
 #     print("Request was not redirect.")
 
 print(response.is_redirect)
+print(response.is_permanent_redirect)
+print(response.history[0].is_redirect)
