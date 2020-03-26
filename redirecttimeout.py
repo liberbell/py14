@@ -18,3 +18,5 @@ response = requests.get("https://gmail.com")
 print(response.is_redirect)
 print(response.is_permanent_redirect)
 print(response.history[0].is_redirect)
+
+response = requests.get("https://gmail.com", allow_redirects=False)
