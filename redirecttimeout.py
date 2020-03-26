@@ -19,4 +19,6 @@ print(response.is_redirect)
 print(response.is_permanent_redirect)
 print(response.history[0].is_redirect)
 
-response = requests.get("https://gmail.com", allow_redirects=False)
+response = requests.get("https://google.com", allow_redirects=False)
+print(response.status_code)
+print(response.history)
