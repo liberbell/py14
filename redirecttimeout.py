@@ -30,4 +30,5 @@ print(response.history)
 resp_head = requests.head("https://google.com")
 print(resp_head.status_code)
 
-print(requests.get("https://github.com", timeout=0.001))
+# print(requests.get("https://github.com", timeout=0.001))
+print(requests.get("https://github.com", timeout=5,18))
