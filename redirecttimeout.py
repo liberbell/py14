@@ -32,4 +32,4 @@ print(resp_head.status_code)
 
 # print(requests.get("https://github.com", timeout=0.001))
 print(requests.get("https://github.com", timeout=(5,18)))
-print(requests.get("https://github.com", timeout=none))
+print(requests.get("https://github.com", timeout=None))
