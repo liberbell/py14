@@ -26,3 +26,6 @@ print(response.history)
 response = requests.get("https://google.com", allow_redirects=True)
 print(response.status_code)
 print(response.history)
+
+resp_head = requests.head("https://google.com")
+print(resp_head.status_code)
