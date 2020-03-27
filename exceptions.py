@@ -8,4 +8,6 @@ from requests import exceptions
 # except exceptions.ConnectionError:
 #     print("Error: Connection Error")
 
-requests.get("https://github.com/", timeout=0.01)
+try: requests.get("https://github.com/", timeout=0.01)
+except: exceptions.ConnectTimeout:
+    print("Timeout Error")
