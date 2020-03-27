@@ -9,5 +9,5 @@ from requests import exceptions
 #     print("Error: Connection Error")
 
 try: requests.get("https://github.com/", timeout=0.01)
-except: exceptions.ConnectTimeout:
+except exceptions.ConnectTimeout:
     print("Timeout Error")
